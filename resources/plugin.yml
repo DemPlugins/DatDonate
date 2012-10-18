@@ -1,0 +1,15 @@
+name: DatPvP
+main: in.tech57gam.demdonation.DemDonations
+version: 0.1a
+author: Bitcoin, adamjones57
+description: >
+             Donation plugin for Bukkit servers.
+commands:
+    donate:
+      description: DatPvP commands.
+      usage: /donate <command>
+permissions:
+    dat.donate.user:
+      description: Gives permission required to use DatPvP.
+      children:
+        dat.donate.donate: true
